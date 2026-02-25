@@ -1,0 +1,45 @@
+---
+// astro imports
+import { getCollection } from "astro:content";
+
+// components imports
+import ProjectCard from "./ProjectCard.astro";
+import PostCard from "./PostCard.astro";
+import { buttonVariants } from "./ui/button";
+
+const allPost = (await getCollection("posts")).sort(
+    (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+---
+
+<!--Grid section to show the projects in to columns -->
+<>
+    <section class="mt-10 px-4 w-full">
+        <div class="mb-4">
+            <h2 class="text-3xl font-bold mb-4">Articles</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-6">
+            {
+                allPost.map((post) => (
+                    <PostCard
+                        id={post.id}
+                        title={post.data.title}
+                        description={post.data.description}
+                        publishDate={post.data.publishDate}
+                        tags={post.data.tags}
+                        cover={post.data.cover}
+                    />
+                ))
+            }
+        </div>
+    </section>
+    <div class="flex justify-center mt-10">
+        <a
+            href="/blog"
+            class={buttonVariants({ variant: "default" }) +
+                "text-n700 bg-primary-light dark:bg-primary-dark hover:bg-primary-hover-light dark:hover:bg-primary-hover-dark"}
+        >
+            See All Articles
+        </a>
+    </div>
+</>
