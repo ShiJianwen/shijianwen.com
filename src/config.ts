@@ -16,18 +16,18 @@ export const SITE = {
 export const ME = {
     name: "shijianwen",
     profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    profileImage: "pp2.jpg",
     profileFacts: [
         {
             value: 10,
             description: "Years of Experience"
         },
         {
-            value: 5,
+            value: 0,
             description: "Completed Projects"
         },
         {
-            value: 4,
+            value: 0,
             description: "Satisfied Clients"
         }
     ],
