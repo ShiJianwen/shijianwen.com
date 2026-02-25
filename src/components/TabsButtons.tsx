@@ -5,8 +5,8 @@ const TabsButtons = (props: any) => {
         <Tabs defaultValue="blog" className="w-full ">
             <TabsList className={"bg-white dark:bg-n700  w-full px-2 py-8 rounded-xl"}>
                 <TabsTrigger className={"w-full py-4 rounded-lg dark:data-[state=active]:text-primary-dark data-[state=active]:bg-light-theme dark:data-[state=active]:bg-dark-theme"} value="blog">Blog</TabsTrigger>
-                <TabsTrigger className={"w-full py-4 rounded-lg dark:data-[state=active]:text-primary-dark data-[state=active]:bg-light-theme dark:data-[state=active]:bg-dark-theme"} value="portfolio">Portfolio</TabsTrigger>
-                <TabsTrigger className={"w-full py-4 rounded-lg dark:data-[state=active]:text-primary-dark data-[state=active]:bg-light-theme dark:data-[state=active]:bg-dark-theme"} value="about">About</TabsTrigger>
+                <TabsTrigger className={"w-full py-4 rounded-lg dark:data-[state=active]:text-primary-dark data-[state=active]:bg-light-theme dark:data-[state=active]:bg-dark-theme"} value="portfolio">Projects</TabsTrigger>
+                {/* <TabsTrigger className={"w-full py-4 rounded-lg dark:data-[state=active]:text-primary-dark data-[state=active]:bg-light-theme dark:data-[state=active]:bg-dark-theme"} value="about">About</TabsTrigger> */}
             </TabsList>
             <TabsContent value="blog">
                 {props.blog}
@@ -14,9 +14,9 @@ const TabsButtons = (props: any) => {
             <TabsContent value="portfolio">
                 {props.portfolio}
             </TabsContent>
-            <TabsContent value="about">
+            {/* <TabsContent value="about">
                 {props.about}
-            </TabsContent>
+            </TabsContent> */}
         </Tabs>
     );
 };
