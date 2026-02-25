@@ -14,7 +14,7 @@ export const SITE = {
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
+    name: "shijianwen",
     profession: "Software Engineer | Full Stack Developer",
     profileImage: "pp2.png",
     profileFacts: [
@@ -32,7 +32,7 @@ export const ME = {
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
+        email: "shijianwen95@gmail.com",
         linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
         resumeDoc: "resume.pdf",
     },

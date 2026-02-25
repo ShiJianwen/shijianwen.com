@@ -1,19 +1,19 @@
 {
-  "name": "astro-simple-portfolio",
+  "name": "shijianwen.com",
   "type": "module",
   "version": "1.1.0",
   "description": "free and open-source portfolio template site built with Astro.",
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Victor Alvarado"
+    "name": "shijianwen"
   },
-  "homepage": "https://simple-portfolio.vicbox.dev",
+  "homepage": "https://shijianwen.com",
   "contributors": [
     {
-      "name": "Victor Alvarado",
-      "email": "victoralvarado.dev@gmail.com",
-      "url": "https://victoralvarado.dev"
+      "name": "shijianwen",
+      "email": "shijianwen95@gmail.com",
+      "url": "https://shijianwen.com"
     }
   ],
   "keywords": [
