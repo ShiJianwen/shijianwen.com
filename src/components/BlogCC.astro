@@ -16,7 +16,7 @@ const allPost = (await getCollection("posts")).sort(
 <>
     <section class="mt-10 px-4 w-full">
         <div class="mb-4">
-            <h2 class="text-3xl font-bold mb-4">Articles</h2>
+            <h2 class="text-3xl font-bold mb-4">Posts</h2>
         </div>
         <div class="grid grid-cols-1 gap-6">
             {
@@ -39,7 +39,7 @@ const allPost = (await getCollection("posts")).sort(
             class={buttonVariants({ variant: "default" }) +
                 "text-n700 bg-primary-light dark:bg-primary-dark hover:bg-primary-hover-light dark:hover:bg-primary-hover-dark"}
         >
-            See All Articles
+            See All Posts
         </a>
     </div>
 </>

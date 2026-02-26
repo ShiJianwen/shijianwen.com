@@ -1,15 +1,15 @@
 export const SITE = {
     website: "https://shijianwen.com", // replace this with your deployed domain
-    title: "Simple Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
+    title: "石建文的主页",
+    description: "石建文的主页 Mainpage of ShiJianwen",
+    tags: ["mainpage", "shijianwen", "石建文", "GinManSek"],
     ogImage: "/og-image.webp",
-    logo: "logo",
+    logo: "",
     logoText: "",
     lang: "en",
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
+    author: "shijianwen",
     profile: "https://victoralvarado.dev/",
 }
 
